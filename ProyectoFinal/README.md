@@ -1,6 +1,6 @@
 # Solución de la Ecuación de Schrödinger para Pozo Infinito 1D y 2D
 
-
+## Autores
 
 Yennifer Yuliana Guerrero Uchima, Dayana Andrea Henao Arbelaez
 
@@ -340,22 +340,13 @@ a_1 & b_1 & c_1 & \cdots & 0 \\
 0 & 0 & 0 & a_n & b_n
 \end{bmatrix}
 \begin{bmatrix}
-x_0 \\
-x_1 \\
-x_2 \\
-\vdots \\
-x_n
+x_0 \\ x_1 \\ x_2 \\ \vdots \\ x_n
 \end{bmatrix}
 =
 \begin{bmatrix}
-d_0 \\
-d_1 \\
-d_2 \\
-\vdots \\
-d_n
+d_0 \\ d_1 \\ d_2 \\ \vdots \\ d_n
 \end{bmatrix}
 $$
-
 ### Descripción del Algoritmo
 
 #### Paso 1: Forward Elimination (Eliminación Hacia Adelante)
@@ -579,7 +570,6 @@ Puedes ver todas las opciones disponibles con:
 ``` bash
 make help
 ```
-
 
 
 
