@@ -71,7 +71,7 @@ Por lo tanto, el esquema de Crank-Nicolson en 2D conduce a una ecuación matrici
 
 
 ### 1D: Discretización
-```cpp
+``` cpp
 // Malla 1D: N puntos internos, L longitud del pozo
 double dx = L / (N + 1);
 for (int i = 0; i < N; i++) {
@@ -80,7 +80,7 @@ for (int i = 0; i < N; i++) {
 }
 
 
-´´
+```
 
 ### 2D: Discretización
 ```cpp
@@ -95,7 +95,7 @@ for (int i = 0; i < Nx; i++) {
         // Condiciones: ψ en fronteras = 0
     }
 }
-´´´
+```
 
 
 
@@ -206,7 +206,8 @@ while max_off_diagonal > tolerance:
                     V[i,p] = V_ip
                     V[i,q] = V_iq
                     
-                    
+```
+   
 ## Solución Numérica usando el Método de Jacobi para Autovalores en 2D
 
 
@@ -322,7 +323,7 @@ void jacobi_eigenvalues_2d(double* A, int n, double tol,
     delete[] B;
 }
 
-
+```
 
 ## Algoritmo de Thomas para la Solución de Sistemas Tridiagonales
 
@@ -411,7 +412,7 @@ void thomas_algorithm(int n, double* a, double* b, double* c, double* d, double*
     }
 }
 
-
+```
 
 ## Implemmentación y estrcutura del proyecto 
 
@@ -578,6 +579,8 @@ Puedes ver todas las opciones disponibles con:
 ``` bash
 make help
 ```
+
+
 
 
 
